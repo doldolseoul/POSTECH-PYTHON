@@ -1,0 +1,15 @@
+pythonscore=int(input("파이썬 점수는 몇점입니까"))
+
+if (pythonscore >=90) :
+    print("파이썬 학점은 A입니다")
+elif (pythonscore >=80) :
+    print("파이썬 학점은 B입니다")
+elif (pythonscore >=70) :
+    print("파이썬 학점은 C입니다")
+elif (pythonscore >=60) :
+    print("파이썬 학점은 D입니다")
+else :
+    print("파이썬 학점은 F입니다")
+
+
+print("수고 많으셨습니다!!")
