@@ -1,0 +1,5 @@
+for c in "abcdef" :
+    print(c, end = " ")
+--------------------------
+=
+a b c d e f 
