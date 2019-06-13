@@ -1,0 +1,15 @@
+def add(a,b):
+    return a+b
+def swap(a,b):
+    a,b = b,a
+    return a,b
+
+# 시작코드
+a=int(input("정수1 입력: "))
+b=int(input("정수2 입력: "))
+sum=add(a,b)
+average=sum/2
+print("두 수의 합 : ", sum)
+print("두 수의 평균: ", average)
+a,b = swap(a,b)
+print("두 수의 교환: ", a,b)
