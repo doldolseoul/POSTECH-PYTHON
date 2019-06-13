@@ -1,0 +1,11 @@
+def main():
+    print(power(10,2))
+def power(x,y):
+    result =1
+    for i in range(y):
+        result = result * x
+    return result
+
+main()
+
+함수는 바로 실행되지 않기 때문에 반환명령이 앞에있다면 main()을 이용
