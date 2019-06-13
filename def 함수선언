@@ -1,6 +1,8 @@
 def add(a,b):
   return a+b
 
+sum = 100(100,200)
+print(sum)
 
 >>>add(10,10)
 20
